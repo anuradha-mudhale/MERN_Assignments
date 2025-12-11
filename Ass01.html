@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <img src="C:\Users\DELL\Downloads\SunbeamLogo.png" alt="sunbeam image" width="50%" height="50%" style="margin-left: 27%; justify-content:center"/>
+    <h1 style="margin-left: 33%;"><b>Sunbeam Registration Form</b></h1>
+
+     <div style="display: flex;">
+        <div style="flex:1: padding:20px; height:auto;">
+        <iframe width="560" height="315" style="padding-left: 90px; padding-top: 50px;" src="C:\Users\DELL\Downloads\videoplayback.mp4"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    <div style="flex:1;padding: 20px;margin-left: 5%;">
+            <table>
+                
+                <tr>
+                    <th>Name</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>Birth Date</th>
+                    <td><input type = "date"></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="Email"></input></td>
+                </tr>
+                <tr>
+                    <th>password</th>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td><textarea id="add" rows="5" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td><input type="radio" id="gen" name="type" value="Male">
+                        <label for="gen">Male</label>
+                        <input type="radio" id="gen1" name="type" value="Female">
+                        <label for="gen1">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label>Upload photo</label></th>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <th><label for="course">Select your Courses</label></th>
+                    <td><select id="course">
+                        <option value="" disabled selected hidden>select course</option>
+                        <option value="MERN">MERN</option>
+                        <option value="Web Developemet">Web Developemet</option>
+                        <option value="GenAI">GenAI</option>
+                        <option value="Embedded">Embedded</option>
+                    </select>   
+                    </td>
+                </tr>
+                <tr>
+                    <th>SkillSet</th>
+                    <td>
+                        <input type="checkbox">Java</input>
+                        <input type="checkbox">CPP</input>
+                        <input type="checkbox">OS</input>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="button" value="Register">
+                    <input type="button" value="clear"></td>
+                </tr>
+
+            </table>
+    </div>
+</div>
+</body>
+</body>
+</html>
